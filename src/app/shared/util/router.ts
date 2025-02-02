@@ -1,8 +1,8 @@
-import { ModuleRouteContext, RouteContext } from "../model/route-context";
+import { ModuleRouteContext, PathContext, RouteContext } from "../model/route-context";
 
 export function generateRoute(
   module: ModuleRouteContext,
-  { route, params }: { route?: RouteContext; params?: Record<string, any> } = {}
+  { route, params }: { route?: PathContext; params?: Record<string, any> } = {}
 ): string {
   const baseUrl = `${module.uri}${route?.uri || ''}`;
 

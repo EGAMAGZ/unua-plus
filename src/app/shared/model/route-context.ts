@@ -1,6 +1,6 @@
 export type PathString = `/${string}`;
 
-export class RouteContext {
+export abstract class RouteContext {
   uri: PathString;
 
   constructor(uri: PathString) {
@@ -9,6 +9,14 @@ export class RouteContext {
 
   get pathName() {
     return this.uri.slice(1)
+  }
+}
+
+export class PathContext extends RouteContext {
+  label: string;
+  constructor(uri: PathString, label: string) {
+    super(uri);
+    this.label = label;
   }
 }
 
