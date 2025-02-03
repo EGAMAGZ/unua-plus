@@ -13,8 +13,8 @@ export abstract class RouteContext {
 }
 
 export class PathContext extends RouteContext {
-  label: string;
-  constructor(uri: PathString, label: string) {
+  label?: string;
+  constructor(uri: PathString, label?: string) {
     super(uri);
     this.label = label;
   }

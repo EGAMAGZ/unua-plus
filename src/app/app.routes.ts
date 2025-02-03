@@ -7,4 +7,14 @@ export const routes: Routes = [
     loadChildren: () => import("./modules/playground/playground.routes")
       .then(r => r.routes),
   },
+  {
+    path: AppModule.schedule.pathName,
+    loadChildren: () => import("./modules/schedule/schedule.routes")
+      .then(r => r.routes)
+  },
+  {
+    path: "",
+    redirectTo: AppModule.schedule.uri,
+    pathMatch: "full"
+  }
 ];
