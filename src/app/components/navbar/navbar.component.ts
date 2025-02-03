@@ -9,4 +9,6 @@ import { NavigationService } from '../../shared/services/navigation.service';
 })
 export class NavbarComponent {
   navigation = inject(NavigationService);
+
+  label = this.navigation.currentLabel
 }

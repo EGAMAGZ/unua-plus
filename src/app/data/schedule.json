@@ -1,0 +1,2531 @@
+{
+  "cdmx-tex": {
+    "0": [
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 53 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 53 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "21:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "21:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      },
+      {
+        "origin": {
+          "hour": "21:20",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "22:00",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      }
+    ],
+    "1": [
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "21:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "21:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "21:20",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "22:00",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      }
+    ],
+    "2": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "10:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 50 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 50 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:50",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "21:30",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      }
+    ],
+    "3": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "10:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 49 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:50",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "21:30",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      }
+    ],
+    "4": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "10:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 50 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 50 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 50 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:50",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "21:30",
+          "name": "Texcoco"
+        },
+        "price": "$ 50 MXN"
+      }
+    ],
+    "5": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "10:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "11:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:30",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:10",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "18:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:20",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:00",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "19:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:20",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:00",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:45",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:25",
+          "name": "Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:15",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "20:55",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      },
+      {
+        "origin": {
+          "hour": "20:50",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "21:30",
+          "name": "Texcoco"
+        },
+        "price": "$ 52 MXN"
+      }
+    ],
+    "6": [
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "12:40",
+          "name": "Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:41",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "13:36",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:11",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:06",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:41",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "14:36",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:41",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "15:36",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:11",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:06",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:41",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "16:36",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:11",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:06",
+          "name": "Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:10",
+          "name": "México TAPO Texcoco"
+        },
+        "destiny": {
+          "hour": "17:50",
+          "name": "Texcoco"
+        },
+        "price": "$ 45 MXN"
+      }
+    ]
+  },
+  "tex-cdmx": {
+    "0": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:44",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:14",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:14",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 54 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 53 MXN"
+      }
+    ],
+    "1": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:14",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 56 MXN"
+      }
+    ],
+    "2": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:44",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "19:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      }
+    ],
+    "3": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:14",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "19:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "19:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      }
+    ],
+    "4": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:14",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "19:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 42 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "19:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 41 MXN"
+      }
+    ],
+    "5": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "10:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:14",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 44 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "14:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "15:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "15:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "16:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "16:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "17:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "17:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "18:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "18:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 48 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "19:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 47 MXN"
+      },
+      {
+        "origin": {
+          "hour": "19:30",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "20:11",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 47 MXN"
+      }
+    ],
+    "6": [
+      {
+        "origin": {
+          "hour": "10:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "10:44",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "11:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "11:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 43 MXN"
+      },
+      {
+        "origin": {
+          "hour": "12:00",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "12:41",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 45 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:15",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "13:56",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      },
+      {
+        "origin": {
+          "hour": "13:45",
+          "name": "Texcoco"
+        },
+        "destiny": {
+          "hour": "14:26",
+          "name": "México TAPO Texcoco"
+        },
+        "price": "$ 46 MXN"
+      }
+    ]
+  }
+}
