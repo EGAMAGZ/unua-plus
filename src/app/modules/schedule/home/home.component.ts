@@ -1,3 +1,4 @@
+import { generateGreeting } from '@/shared/util/greeting';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  greeting = ""
+  todayDate = ""
 
+  constructor() {
+    [this.todayDate, this.greeting] = generateGreeting();
+  }
 }
