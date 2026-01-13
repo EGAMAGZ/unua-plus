@@ -13,34 +13,32 @@ export class AppRoot extends LitElement {
      * @private
      * @type {ClockController}
      */
-    #clock = new ClockController(this, 10_000);
+    #clock = new ClockController(this);
 
-    static get properties() {
-        return {
-            clockData: {
-                type: Object,
-            },
-        };
-    }
-
-    provider = new ContextProvider(this, {
-        context: clockContext,
-        value: this.#clock.data,
-    });
+    /**
+     * @property
+     * @protected
+     * @type {ContextProvider<typeof clockContext>}
+     */
+    _provider;
 
     constructor() {
         super();
+        this._provider = new ContextProvider(this, {
+            context: clockContext,
+            value: this.#clock.data,
+        });
     }
 
     connectedCallback() {
         super.connectedCallback();
 
-        this.provider.setValue(this.#clock.data);
+        this._provider.setValue(this.#clock.data);
     }
 
     willUpdate(changedProperties) {
-        super.willUpdate && super.willUpdate(changedProperties);
-        this.provider.setValue(this.#clock.data);
+        super.willUpdate(changedProperties);
+        this._provider.setValue(this.#clock.data);
     }
 
     render() {

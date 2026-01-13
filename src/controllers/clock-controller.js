@@ -6,6 +6,7 @@ export class ClockController extends Controller {
      * @property
      * @private
      * @type {string}
+     * @default ""
      */
     #greeting = "";
 
@@ -13,6 +14,7 @@ export class ClockController extends Controller {
      * @property
      * @private
      * @type {string}
+     * @default ""
      */
     #time = "";
 
@@ -61,7 +63,7 @@ export class ClockController extends Controller {
         } else {
             return "Good night";
         }
-    }
+    }   
 
     get greeting(){
         return this.#greeting;

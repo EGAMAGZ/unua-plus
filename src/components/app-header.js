@@ -1,10 +1,8 @@
-import { consume, ContextConsumer } from "@lit/context";
+import { ContextConsumer } from "@lit/context";
 import { html, LitElement } from "lit";
 import { clockContext } from "../context/clock-context";
 
 export class AppHeader extends LitElement {
-    DEFAULT_TIME_REFRESHING = 1_000;
-
     static get properties() {
         return {
             greetingMessage: {
@@ -18,6 +16,12 @@ export class AppHeader extends LitElement {
         };
     }
 
+    /**
+     * @property
+     * @private
+     * @type {ContextConsumer<typeof clockContext> | undefined}
+     */
+    #clockConsumer;
 
     constructor() {
         super();
@@ -25,21 +29,23 @@ export class AppHeader extends LitElement {
 
     connectedCallback() {
         super.connectedCallback();
-        const data = new ContextConsumer(this,{
+        this.#clockConsumer = new ContextConsumer(this,{
             context: clockContext,
             subscribe: true,
             callback: (value) => {
+                if(!value) return;
+
                 const { greeting, time } = value;
                 this.greetingMessage = greeting;
                 this.time = time;
 
-                console.log("AppHeader context updated:", value);
             }
         });
     }
 
     disconnectedCallback() {
         super.disconnectedCallback();
+        this.#clockConsumer?.disconnect();
     }
 
     render() {
