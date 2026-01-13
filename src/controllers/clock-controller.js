@@ -1,12 +1,20 @@
 import { Controller } from "./controller";
 
 export class ClockController extends Controller {
+
     /**
      * @property
-     * @public
-     * @type {Date}
+     * @private
+     * @type {string}
      */
-    value = new Date();
+    #greeting = "";
+
+    /**
+     * @property
+     * @private
+     * @type {string}
+     */
+    #time = "";
 
     /**
      * @property
@@ -18,7 +26,7 @@ export class ClockController extends Controller {
     /**
      * @property
      * @private
-     * @type {number}
+     * @type {number | undefined}
      */
     #timerId;
 
@@ -32,15 +40,55 @@ export class ClockController extends Controller {
         this.#timeout = timeout;
     }
 
+    #updateTime(){
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, "0");
+        const minutes = now.getMinutes().toString().padStart(2, "0");
+
+        this.#time = `${hours}:${minutes}`;
+        this.#greeting = this.#getGreeting(now.getHours());
+
+        this._host.requestUpdate();
+    }
+
+    #getGreeting(hour){
+        if(hour < 12){
+            return "Good morning";
+        } else if(hour < 18){
+            return "Good afternoon";
+        } else if(hour < 22){
+            return "Good evening";
+        } else {
+            return "Good night";
+        }
+    }
+
+    get greeting(){
+        return this.#greeting;
+    }
+    
+    get time(){
+        return this.#time;
+    }
+
+    get data(){
+        return {
+            greeting: this.#greeting,
+            time: this.#time,
+        };
+    }
+
     hostConnected() {
-        this.#timerId = setInterval(() => {
-            this.value = new Date();
-            this._host.requestUpdate();
-        }, this.#timeout);
+        this.#updateTime();
+
+        this.#timerId = setInterval(() => this.#updateTime(), this.#timeout);
     }
 
     hostDisconnected() {
-        clearInterval(this.#timerId);
-        this.#timerId = undefined;
+        if(this.#timerId){
+
+            clearInterval(this.#timerId);
+            this.#timerId = undefined;
+        }
     }
 }

@@ -1,13 +1,6 @@
 import { LitElement, css, html } from "lit";
-import { ClockController } from "../controllers/clock-controller";
 
 export class AppScaffold extends LitElement {
-    /**
-     * @property
-     * @private
-     * @type {ClockController}
-     */
-    #clock = ClockController(this);
 
     constructor(){
         super();

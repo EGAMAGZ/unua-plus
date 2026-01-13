@@ -12,6 +12,7 @@ export class Controller {
      */
     constructor(host){
         this._host = host;
+        host.addController(this);
     }
 
 

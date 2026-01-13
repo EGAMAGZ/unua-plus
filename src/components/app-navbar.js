@@ -11,8 +11,6 @@ export class AppNavbar extends LitElement {
     }
     constructor(){
         super();
-
-        this.menuIndex = 0;
     }
 
     render(){

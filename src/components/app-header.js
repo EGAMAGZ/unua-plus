@@ -1,59 +1,50 @@
+import { consume, ContextConsumer } from "@lit/context";
 import { html, LitElement } from "lit";
+import { clockContext } from "../context/clock-context";
 
 export class AppHeader extends LitElement {
     DEFAULT_TIME_REFRESHING = 1_000;
 
     static get properties() {
         return {
-            _greetingMessage: {
+            greetingMessage: {
                 state: true,
                 type: String,
             },
-            _time: {
+            time: {
                 state: true,
                 type: String,
             },
         };
     }
 
-    #updateTimeInterval;
 
     constructor() {
         super();
-
-        this.time = this.currentTime;
-    }
-
-    get currentTime() {
-        const date = new Date();
-        const minutes = date.getMinutes().toString().padStart(2, '0');
-        const hours = date.getHours().toString().padStart(2, '0');
-        return `${hours}:${minutes}`;
-    }
-
-    get greeting(){
-    }
-
-    #updateTime() {
-        this.time = this.currentTime;
     }
 
     connectedCallback() {
         super.connectedCallback();
-        this.#updateTimeInterval = setInterval(
-            () => this.#updateTime(),
-            this.DEFAULT_TIME_REFRESHING,
-        );
+        const data = new ContextConsumer(this,{
+            context: clockContext,
+            subscribe: true,
+            callback: (value) => {
+                const { greeting, time } = value;
+                this.greetingMessage = greeting;
+                this.time = time;
+
+                console.log("AppHeader context updated:", value);
+            }
+        });
     }
 
     disconnectedCallback() {
         super.disconnectedCallback();
-        clearInterval(this.#updateTimeInterval);
     }
 
     render() {
         return html`
-            <div>${this.time}</div>
+            <div>${this.time} ${this.greetingMessage}</div>
         `;
     }
 }
