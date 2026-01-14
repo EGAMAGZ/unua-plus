@@ -23,6 +23,10 @@ export class NeoCard extends LitElement {
                 state: true,
                 type: Object,
             },
+            elevated: {
+                attribute: true,
+                type: Boolean,
+            }
         };
     }
 
@@ -40,11 +44,13 @@ export class NeoCard extends LitElement {
             );
         }
         .card {
-            box-shadow: var(--neo-box-shadow);
-            border-radius: var(--neo-border-radius);
             border: var(--neo-border);
+            border-radius: var(--neo-border-radius);
 
             padding: 1.5rem;
+            &.elevated {
+                box-shadow: var(--neo-box-shadow);
+            }
             &.primary {
                 background-color: var(--card-background-primary);
                 color: white;
@@ -103,6 +109,7 @@ export class NeoCard extends LitElement {
         const cardClasses = {
             card: true,
             [this.variant]: true,
+            elevated: this.elevated,
         };
 
         return html`

@@ -85,12 +85,8 @@ export class AppRoot extends LitElement {
             <app-scaffold>
                 <greeting-header slot="header"></greeting-header>
                 <div class="container">
-                    <neo-card variant="primary">
-                        <span slot="title">Hola</span>
+                    <neo-card variant="primary" elevated>
                         Ejemplo
-                        <div slot="footer">
-                            <span> Sample </span>
-                        </div>
                     </neo-card>
                 </div>
                 <app-navbar slot="navbar"></app-navbar>
