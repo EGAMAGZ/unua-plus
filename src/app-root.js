@@ -1,9 +1,10 @@
 import "./components/app-scaffold";
 import "./components/app-navbar";
 import "./components/app-header";
-import { html, LitElement } from "lit";
+import "./components/ui/neo-card";
+
+import { html, LitElement, css } from "lit";
 import { ClockController } from "./controllers/clock-controller";
-import { provide } from "@lit/context";
 import { clockContext } from "./context/clock-context";
 import { ContextProvider } from "@lit/context";
 
@@ -21,6 +22,45 @@ export class AppRoot extends LitElement {
      * @type {ContextProvider<typeof clockContext>}
      */
     _provider;
+
+    static styles = css`
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .container {
+            max-width: 1320px;
+        }
+    }`;
 
     constructor() {
         super();
@@ -45,7 +85,15 @@ export class AppRoot extends LitElement {
         return html`
             <app-scaffold>
                 <app-header slot="header"></app-header>
-                <h1>Example</h1>
+                <div class="container">
+                    <neo-card variant="primary">
+                        <span slot="title">Hola</span>
+                        Ejemplo
+                        <div slot="footer">
+                            <span> Sample </span>
+                        </div>
+                    </neo-card>
+                </div>
                 <app-navbar slot="navbar"></app-navbar>
             </app-scaffold>
         `;
