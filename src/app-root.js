@@ -27,7 +27,6 @@ export class AppRoot extends LitElement {
     .container {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }

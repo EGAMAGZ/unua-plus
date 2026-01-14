@@ -6,6 +6,7 @@ export class AppHeader extends LitElement {
     static styles = css`
     :host {
         padding: 0 0.5rem;
+        margin-bottom: 2.5rem;
     }
     .header{
         padding: 1.25rem 0.75rem 0.375rem 0.75rem;
