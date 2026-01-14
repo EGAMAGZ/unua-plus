@@ -34,25 +34,25 @@ export class AppRoot extends LitElement {
 
     @media (min-width: 576px) {
         .container {
-            max-width: 540px;
+            max-width: 33.75rem;
         }
     }
 
     @media (min-width: 768px) {
         .container {
-            max-width: 720px;
+            max-width: 45rem;
         }
     }
 
     @media (min-width: 992px) {
         .container {
-            max-width: 960px;
+            max-width: 60rem;
         }
     }
 
     @media (min-width: 1200px) {
         .container {
-            max-width: 1140px;
+            max-width: 71.25rem;
         }
     }
 
