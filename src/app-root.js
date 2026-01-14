@@ -1,6 +1,6 @@
 import "./components/app-scaffold";
 import "./components/app-navbar";
-import "./components/app-header";
+import "./components/greeting-header";
 import "./components/ui/neo-card";
 
 import { html, LitElement, css } from "lit";
@@ -84,7 +84,7 @@ export class AppRoot extends LitElement {
     render() {
         return html`
             <app-scaffold>
-                <app-header slot="header"></app-header>
+                <greeting-header slot="header"></greeting-header>
                 <div class="container">
                     <neo-card variant="primary">
                         <span slot="title">Hola</span>
