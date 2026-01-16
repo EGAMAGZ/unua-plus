@@ -13,24 +13,24 @@ import { when } from "lit/directives/when.js";
  * @slot
  */
 export class NeoCard extends LitElement {
-    static get properties() {
-        return {
-            variant: {
-                attribute: true,
-                type: String,
-            },
-            slotsWithContent: {
-                state: true,
-                type: Object,
-            },
-            elevated: {
-                attribute: true,
-                type: Boolean,
-            }
-        };
-    }
+  static get properties() {
+    return {
+      variant: {
+        attribute: true,
+        type: String,
+      },
+      slotsWithContent: {
+        state: true,
+        type: Object,
+      },
+      elevated: {
+        attribute: true,
+        type: Boolean,
+      }
+    };
+  }
 
-    static styles = css`
+  static styles = css`
         :host {
             --card-background-primary: var(--color-primary);
             --card-background-neutral: var(--color-background);
@@ -39,7 +39,7 @@ export class NeoCard extends LitElement {
 
             /* Overrides css properties */
             --neo-box-shadow-length: 0.25rem;
-            --neo-box-shadow: black var(--neo-box-shadow-length) var(
+            --neo-box-shadow: var(--neo-border-color) var(--neo-box-shadow-length) var(
                 --neo-box-shadow-length
             );
         }
@@ -69,7 +69,7 @@ export class NeoCard extends LitElement {
             }
             & .card-title {
                 font-weight: 600;
-                font-size: 1.75rem;
+                font-size: 1.5rem;
                 text-wrap: balance;
                 margin-bottom: 0.5rem;
             }
@@ -81,65 +81,67 @@ export class NeoCard extends LitElement {
         }
     `;
 
-    constructor() {
-        super();
-        /**
-         * @type {CardVariant}
-         */
-        this.variant = "neutral";
-        this.slotsWithContent = {};
-    }
-
+  constructor() {
+    super();
     /**
-     * @method
-     * @private
-     * @param {Event} event
+     * @type {CardVariant}
      */
-    #handleSlotChange(event) {
-        const slotName = event.target.name;
-        const hasContent = hasSlotContent(this, slotName);
+    this.variant = "neutral";
+    this.slotsWithContent = {};
+  }
 
-        this.slotsWithContent = {
-            ...this.slotsWithContent,
-            [slotName]: hasContent,
-        };
-    }
+  /**
+   * @method
+   * @private
+   * @param {Event} event
+   */
+  #handleSlotChange(event) {
+    const slotName = event.target.name;
+    const hasContent = hasSlotContent(this, slotName);
 
-    render() {
-        const cardClasses = {
-            card: true,
-            [this.variant]: true,
-            elevated: this.elevated,
-        };
+    this.slotsWithContent = {
+      ...this.slotsWithContent,
+      [slotName]: hasContent,
+    };
+  }
 
-        return html`
+  render() {
+    const cardClasses = {
+      card: true,
+      [this.variant]: true,
+      elevated: this.elevated,
+    };
+
+    return html`
             <div class="${classMap(cardClasses)}">
-                ${when(this.slotsWithContent.title, () =>
-                    html`
+                ${when(this.slotsWithContent.title, () => html`
                         <div class="card-title">
                             <slot name="title"></slot>
                         </div>
-                    `, () =>
-                    html`
-                        <slot name="title" @slotchange="${this
-                            .#handleSlotChange}"></slot>
+                    `, () => html`
+                        <slot 
+                          name="title" 
+                          @slotchange="${this.#handleSlotChange}">
+                        </slot>
                     `)}
+
                 <div class="card-body">
                     <slot></slot>
                 </div>
-                ${when(this.slotsWithContent.footer, () =>
-                    html`
+
+                ${when(this.slotsWithContent.footer, () => html`
                         <div class="card-footer">
                             <slot name="footer"></slot>
                         </div>
-                    `, () =>
-                    html`
-                        <slot name="footer" @slotchange="${this
-                            .#handleSlotChange}"></slot>
+                    `, () => html`
+                        <slot 
+                          name="footer" 
+                          @slotchange="${this.#handleSlotChange}">
+                        </slot>
                     `)}
             </div>
         `;
-    }
+  }
 }
 
 customElements.define("neo-card", NeoCard);

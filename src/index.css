@@ -18,8 +18,9 @@
   --color-accent: #EA7B7B;
 
   --neo-box-shadow-length: 0.5rem;
-  --neo-box-shadow: black var(--neo-box-shadow-length) var(--neo-box-shadow-length);
+  --neo-box-shadow: var(--neo-border-color) var(--neo-box-shadow-length) var(--neo-box-shadow-length);
   --neo-border-size: 0.25rem;
+  --neo-border-color: #121212;
   --neo-border-radius: 0.25rem;
   --neo-border: var(--neo-border-size) solid black;
 }
@@ -28,6 +29,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  box-sizing: content-box;
 }
 
 /*@media (prefers-color-scheme: light) {
