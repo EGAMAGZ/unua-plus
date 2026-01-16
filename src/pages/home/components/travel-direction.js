@@ -11,6 +11,13 @@ const REFRESH_ICON = svg`
 </svg>
 `
 
+/** 
+ *  @typedef { {to: string, from: string} } DestinationData
+ * */
+
+/**
+ * @type {DestinationData}
+ * */
 const DEFAULT_DESTINATION = {
   from: "Texcoco",
   to: "CDMX"
@@ -77,7 +84,7 @@ export class TravelDirection extends LitElement {
 
     this.shadowRoot.querySelector("neo-button > svg").classList.toggle("rotate")
 
-    this.dispatchEvent(new CustomEvent("destination-change", {
+    this.dispatchEvent(new CustomEvent("destinationChange", {
       detail: {
         from: this.destinationFrom,
         to: this.destinationTo

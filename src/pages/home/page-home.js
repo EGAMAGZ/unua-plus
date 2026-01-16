@@ -45,12 +45,19 @@ export class PageHome extends LitElement {
         }
     }`;
 
+  /**
+   * @param {CustomEvent<import("./components/travel-direction").DestinationData>} event 
+   * */
+  handleDestinationChange(event) {
+    console.log(event.detail)
+  }
+
   render() {
     return html`
             <app-scaffold>
                 <greeting-header slot="header"></greeting-header>
                 <div class="container">
-                  <travel-direction></travel-direction>
+                  <travel-direction @destinationChange=${this.handleDestinationChange}></travel-direction>
                 </div>
                 <app-navbar slot="navbar"></app-navbar>
             </app-scaffold>
