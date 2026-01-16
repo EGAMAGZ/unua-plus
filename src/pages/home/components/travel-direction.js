@@ -76,6 +76,15 @@ export class TravelDirection extends LitElement {
     this.destinationFrom = tempFrom;
 
     this.shadowRoot.querySelector("neo-button > svg").classList.toggle("rotate")
+
+    this.dispatchEvent(new CustomEvent("destination-change", {
+      detail: {
+        from: this.destinationFrom,
+        to: this.destinationTo
+      },
+      bubbles: true,
+      composed: true
+    }))
   }
 
   render() {
