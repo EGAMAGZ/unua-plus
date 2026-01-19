@@ -1,6 +1,6 @@
 import "./pages/home/page-home.js";
 
-import { html, LitElement, css } from "lit";
+import { html, LitElement } from "lit";
 import { ClockController } from "./controllers/clock-controller";
 import { clockContext } from "./context/clock-context";
 import { ContextProvider } from "@lit/context";
@@ -42,7 +42,7 @@ export class AppRoot extends LitElement {
   render() {
     return html`
       <page-home></page-home>
-        `;
+    `;
   }
 }
 

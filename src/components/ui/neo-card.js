@@ -2,6 +2,7 @@ import { css, html, LitElement, nothing } from "lit";
 import { hasSlotContent } from "../../util/html";
 import { classMap } from "lit/directives/class-map.js";
 import { when } from "lit/directives/when.js";
+
 /**
  * @typedef {"neutral" | "primary" | "secondary" | "accent"} CardVariant
  */
@@ -116,7 +117,10 @@ export class NeoCard extends LitElement {
             <div class="${classMap(cardClasses)}">
                 ${when(this.slotsWithContent.title, () => html`
                         <div class="card-title">
-                            <slot name="title"></slot>
+                            <slot 
+                              name="title"
+                              @slotchange=${this.#handleSlotChange}
+                              ></slot>
                         </div>
                     `, () => html`
                         <slot 
@@ -131,7 +135,10 @@ export class NeoCard extends LitElement {
 
                 ${when(this.slotsWithContent.footer, () => html`
                         <div class="card-footer">
-                            <slot name="footer"></slot>
+                            <slot 
+                              name="footer"
+                              @slotchange=${this.#handleSlotChange}
+                            ></slot>
                         </div>
                     `, () => html`
                         <slot 
