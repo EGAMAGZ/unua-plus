@@ -1,9 +1,10 @@
 import { ContextConsumer } from "@lit/context";
 import { css, html, LitElement } from "lit";
 import { clockContext } from "../context/clock-context";
+import "../components/dynamic-clock-icon.js";
 
 export class AppHeader extends LitElement {
-    static styles = css`
+  static styles = css`
     :host {
         padding: 0 0.5rem;
         margin-bottom: 2.5rem;
@@ -15,6 +16,7 @@ export class AppHeader extends LitElement {
 
         & .time {
             font-size: 1rem;
+            line-height: 1rem;
             margin-left: 0.5rem;
             color: black;
         }
@@ -25,60 +27,73 @@ export class AppHeader extends LitElement {
             font-weight: 600;
             color: black;
         }
-    }`;
-
-    static get properties() {
-        return {
-            greetingMessage: {
-                state: true,
-                type: String,
-            },
-            time: {
-                state: true,
-                type: String,
-            },
-        };
     }
-
-    /**
-     * @property
-     * @private
-     * @type {ContextConsumer<typeof clockContext> | undefined}
-     */
-    #clockConsumer;
-
-    constructor() {
-        super();
+    .clock-container {
+      display: flex;
+      align-items: center;
     }
-
-    connectedCallback() {
-        super.connectedCallback();
-        this.#clockConsumer = new ContextConsumer(this,{
-            context: clockContext,
-            subscribe: true,
-            callback: (value) => {
-                if(!value) return;
-
-                const { greeting, time } = value;
-                this.greetingMessage = greeting;
-                this.time = time;
-            }
-        });
+    
+    .clock-container dynamic-clock-icon {
+      display: flex;
+      align-items: center;
     }
+`;
 
-    disconnectedCallback() {
-        super.disconnectedCallback();
-        this.#clockConsumer?.disconnect();
-    }
+  static get properties() {
+    return {
+      greetingMessage: {
+        state: true,
+        type: String,
+      },
+      time: {
+        state: true,
+        type: String,
+      },
+    };
+  }
 
-    render() {
-        return html`
+  /**
+   * @property
+   * @private
+   * @type {ContextConsumer<typeof clockContext> | undefined}
+   */
+  #clockConsumer;
+
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.#clockConsumer = new ContextConsumer(this, {
+      context: clockContext,
+      subscribe: true,
+      callback: (value) => {
+        if (!value) return;
+
+        const { greeting, time } = value;
+        this.greetingMessage = greeting;
+        this.time = time;
+      }
+    });
+  }
+
+  disconnectedCallback() {
+    super.disconnectedCallback();
+    this.#clockConsumer?.disconnect();
+  }
+
+  render() {
+    return html`
         <div class="header">
             <span class="greeting">${this.greetingMessage}</span>
-            <span class="time">${this.time}</span>
+            <div class="clock-container">
+              <dynamic-clock-icon></dynamic-clock-icon>
+              <span class="time">${this.time}</span>
+            </div>
         </div>
         `;
-    }
+  }
 }
 
 customElements.define("greeting-header", AppHeader);
