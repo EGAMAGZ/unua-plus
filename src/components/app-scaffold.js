@@ -2,11 +2,11 @@ import { LitElement, css, html } from "lit";
 
 export class AppScaffold extends LitElement {
 
-    constructor(){
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    static styles = css`
+  static styles = css`
     .scaffold {
         display: flex;
         flex-direction: column;
@@ -16,9 +16,8 @@ export class AppScaffold extends LitElement {
         flex-grow: 1;
     }
     `
-
-    render(){
-        return html`
+  render() {
+    return html`
         <div class="scaffold">
             <slot name="header">
             </slot>
@@ -28,8 +27,7 @@ export class AppScaffold extends LitElement {
             <slot name="navbar"></slot>
         </div>
         `
-    }
+  }
 }
-
 
 customElements.define("app-scaffold", AppScaffold)
